@@ -31,6 +31,11 @@ header{
     background-color: yellow;
 }
 
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 table{
     text-align: left;
 }
@@ -41,4 +46,8 @@ table{
 
 .prima-riga, .terza-riga{
     background-color: #b1e5f2;
+}
+
+h4{
+    color: #808080;
 }
