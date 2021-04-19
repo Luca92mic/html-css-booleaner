@@ -1,5 +1,6 @@
 body{
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main{
@@ -8,15 +9,33 @@ main{
 }
 
 header{
-    background-image: url("../../img/pattern.png");
-    background-color: #4ea0ff;
     height: 150px;
     background-repeat: repeat;
+    border-bottom: 3px solid black;
 }
 
 .logo{
-    margin-left: 15%;
+    margin-left: 30%;
+}
+
+/* main */
+.titolo{
     text-align: center;
+}
+.autore{
+    font-size: 12px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'roboto';
+}
+
+.foto{
+    text-align: center;
+}
+.photo-text{
+    text-align: left;
+    font-size: 10px;
 }
 
 /* immagini footer */
@@ -31,6 +50,10 @@ header{
     height: 208px;
     background-repeat: no-repeat;
 }
+.lorem{
+    color: #fff;
+    
+}
 
 /* tabella */
 table{
@@ -41,15 +64,12 @@ table{
 }
 
 thead{
-    background-color: #20a9e5;
+    background-color: #00405c;
+    color: #ffffff;
 }
 
-.prima-riga{
-    background-color: #b1e5f2;
-}
-
-.terza-riga{
-    background-color: #b1e5f2;
+tbody{
+    background-color: #d1d1d1;
 }
 
 td{
