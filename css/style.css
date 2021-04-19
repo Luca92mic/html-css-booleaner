@@ -1,16 +1,12 @@
+/* header */
 header{
     background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
     height: 150px;
     background-repeat: repeat;
-    position: relative;
 }
 
-.logo{
-    position: absolute;
-    bottom: 20px;
-}
-
+/* colore autore */
 .autore{
     color: #808080;
 }
@@ -23,24 +19,28 @@ header{
     font-size: 12px;
 }
 
+
+/* autore immagini */
 .photo-text{
     font-size: 11px;
 }
 
+/* colore giallo testo */
 .yellow{
     background-color: yellow;
 }
 
-ul{
-    list-style-position: inside;
-    padding-left: 0;
-}
 
+/* allineamento lista */
+
+
+/* allineamento tabella */
 table{
     text-align: left;
+    width: 100%;
 }
 
-.table-head{
+thead{
     background-color: #20a9e5;
 }
 
@@ -48,6 +48,28 @@ table{
     background-color: #b1e5f2;
 }
 
+td{
+    width: 33%;
+}
+
+/* allineamento e colore correlati */
 h4{
     color: #808080;
+}
+
+.monitor{
+    background-image: url("../img/monitor.jpg");
+    height: 208px;
+    background-repeat: no-repeat;
+}
+
+.graphic{
+    background-image: url("../img/graph.jpg");
+    height: 208px;
+    background-repeat: no-repeat;
+}
+
+.lorem{
+    font-size: 20px;
+    color: #fff;
 }
