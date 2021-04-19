@@ -38,18 +38,24 @@ header{
 table{
     text-align: left;
     width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 thead{
     background-color: #20a9e5;
 }
 
-.prima-riga, .terza-riga{
+.prima-riga{
+    background-color: #b1e5f2;
+}
+
+.terza-riga{
     background-color: #b1e5f2;
 }
 
 td{
-    width: 33%;
+    width: 70px;
 }
 
 /* allineamento e colore correlati */
