@@ -1,5 +1,18 @@
 header{
-    background-image: url("../img/logo.png"), url("../img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-color: #4ea0ff;
-    height: 100px;
+    height: 150px;
+    background-repeat: repeat;
+}
+
+p{
+    color: #808080;
+}
+
+.booleaner{
+    color: #20a9e5;
+}
+
+.data{
+    font-size: 12px;
 }
