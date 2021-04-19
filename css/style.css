@@ -5,7 +5,7 @@ header{
     background-repeat: repeat;
 }
 
-p{
+.autore{
     color: #808080;
 }
 
@@ -15,4 +15,8 @@ p{
 
 .data{
     font-size: 12px;
+}
+
+.photo-text{
+    font-size: 11px;
 }
