@@ -1,3 +1,12 @@
+body{
+    background-color: lightgray;
+}
+
+main{
+    margin: 0 auto;
+    width: 70%;
+}
+
 header{
     background-image: url("../../img/pattern.png");
     background-color: #4ea0ff;
@@ -5,6 +14,12 @@ header{
     background-repeat: repeat;
 }
 
+.logo{
+    margin-left: 15%;
+    text-align: center;
+}
+
+/* immagini footer */
 .monitor{
     background-image: url("../../img/monitor.jpg");
     height: 208px;
@@ -15,4 +30,28 @@ header{
     background-image: url("../../img/graph.jpg");
     height: 208px;
     background-repeat: no-repeat;
+}
+
+/* tabella */
+table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead{
+    background-color: #20a9e5;
+}
+
+.prima-riga{
+    background-color: #b1e5f2;
+}
+
+.terza-riga{
+    background-color: #b1e5f2;
+}
+
+td{
+    width: 70px;
 }
