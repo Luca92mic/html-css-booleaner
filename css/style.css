@@ -3,6 +3,12 @@ header{
     background-color: #4ea0ff;
     height: 150px;
     background-repeat: repeat;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    bottom: 20px;
 }
 
 .autore{
@@ -19,4 +25,20 @@ header{
 
 .photo-text{
     font-size: 11px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+table{
+    text-align: left;
+}
+
+.table-head{
+    background-color: #20a9e5;
+}
+
+.prima-riga, .terza-riga{
+    background-color: #b1e5f2;
 }
